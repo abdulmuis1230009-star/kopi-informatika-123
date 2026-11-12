@@ -1,6 +1,6 @@
 
 // NOMOR WHATSAPP TOKO
-const nomorWhatsApp = "6281234567890";
+const nomorWhatsApp = "6285891362062";
 
 // DATA MENU
 const products = [
@@ -63,8 +63,8 @@ function tampilkanProduk(kategori = "Semua") {
 // PESAN WHATSAPP
 function pesanWhatsApp(nama, harga) {
     const pesan =
-        `Halo Kopi Informatika! ☕\n\n` +
-        `Saya ingin memesan:\n` +
+        `Woi Rehan Abdul Ghandi! \n\n` +
+        `Gua mau pesen kopi lu:\n` +
         `Menu: ${nama}\n` +
         `Harga: ${formatRupiah(harga)}\n\n` +
         `Terima kasih!`;
