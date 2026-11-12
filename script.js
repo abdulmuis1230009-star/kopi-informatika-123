@@ -64,7 +64,7 @@ function tampilkanProduk(kategori = "Semua") {
 function pesanWhatsApp(nama, harga) {
     const pesan =
         `Halo Abdul Muis! \n\n` +
-        `Saya ingin preeorder kopi kamu:\n` +
+        `Saya ingin pre order kopi kamu:\n` +
         `Menu: ${nama}\n` +
         `Harga: ${formatRupiah(harga)}\n\n` +
         `Terima kasih!`;
@@ -103,7 +103,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 // KONTAK WHATSAPP
 document.getElementById("contactWhatsapp").href =
     `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(
-        "Halo Kopi Informatika, saya ingin memesan kopi."
+        "Halo Abdul Muis, saya ingin pre order kopimu."
     )}`;
 
 // JALANKAN WEBSITE
