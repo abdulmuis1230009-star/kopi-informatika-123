@@ -63,8 +63,8 @@ function tampilkanProduk(kategori = "Semua") {
 // PESAN WHATSAPP
 function pesanWhatsApp(nama, harga) {
     const pesan =
-        `Woi Rehan Abdul Ghandi! \n\n` +
-        `Gua mau pesen kopi lu:\n` +
+        `Halo Abdul Muis! \n\n` +
+        `Saya ingin preeorder kopi kamu:\n` +
         `Menu: ${nama}\n` +
         `Harga: ${formatRupiah(harga)}\n\n` +
         `Terima kasih!`;
