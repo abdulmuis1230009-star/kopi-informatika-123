@@ -7,14 +7,14 @@ const products = [
     {
         name: "Kopi Susu Gula Aren",
         category: "Coffee",
-        price: 10000,
+        price: 15000,
         description: "Espresso, susu segar dan gula aren asli.",
         image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
     },
     {
         name: "Matcha Latte",
         category: "Non Coffee",
-        price: 10000,
+        price: 15000,
         description: "Matcha premium dengan susu segar.",
         image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600"
     }
